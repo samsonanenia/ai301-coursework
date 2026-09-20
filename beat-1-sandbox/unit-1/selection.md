@@ -88,9 +88,6 @@ After reviewing the issue more carefully, I realized that all of those possible 
 
 **Check rationale**
 
-[One check from the `rubric.md` uploaded to `tools/issue-select/`, quoted as it is
-currently written, with the reasoning behind its current form.]
-
 
 > | scope-fits | Issue title and body, comment thread, issue open date, opener author association, labels, and linked PR history in Repo facts. Count requested outcomes, not files, suspected causes, or implementation steps. | Pass when the issue asks for one concrete end result that could be delivered in one PR. Several files, documentation pages, suspected causes, or implementation steps still count as one outcome when they all serve the same result. A terse issue also passes when it names a concrete bug/change and is maintainer-filed or labeled `good first issue`; missing reproduction details alone do not fail it. Fail if any of these is true: (1) it is explicitly an umbrella, tracking, or megaissue containing independent changes; (2) it is only a usage/support question; (3) implementation requires an unresolved product/design choice or required asset marked TBD; (4) a maintainer explicitly says it requires a broad rewrite or major core-internal redesign; or (5) the issue is more than 12 months old and has at least 2 closed unmerged linked PRs, indicating repeated abandoned implementation attempts. | required |
 
@@ -117,9 +114,10 @@ This is also the basis for the claim comment you write in Unit 2.
 
 3. What the verdict identified correctly, and what you weighed that the rubric could
    not.
+
    Ans: My rubric correctly identified that the repository is active, the issue is unclaimed, the scope is bounded, and the repository does not prohibit AI-assisted contributions. Outside of the rubric, I also considered whether the issue matched the kind of work I actually want to do. I preferred #72 because it involves Python, backend logic, testing, and security behavior, which are areas I am comfortable with and interested in.
 
-4. The anticipated difficulty in claiming it.]
+5. The anticipated difficulty in claiming it.]
 
    Ans: I expect claiming the issue to be straightforward because it is still open and currently has no assignee. The Path Review house rules also say that classmates' claim activity does not block the issue, so I do not expect the claiming step in Unit 2 to be difficult.
 
