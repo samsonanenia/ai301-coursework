@@ -22,8 +22,6 @@ https://github.com/codepath/pathreview-ai301-fa26-s3/issues/72
 ```
 **Verdict output**
 
-[Paste Claude's readable summary here]
-
 ```json
 {
   "item": "https://github.com/codepath/pathreview-ai301-fa26-s3/issues/72",
