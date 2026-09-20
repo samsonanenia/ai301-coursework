@@ -61,11 +61,22 @@ Quote source text directly in each field below. Paraphrase does not satisfy them
 
 **Run history**
 
-My first attempted full run failed because Claude Code's OAuth session had expired, so all 20 issues errored and no score was produced. After logging in again, my first scored full run was 17/20.
+`agreement: 0/0 scored items`
+`20 item(s) errored; fix and re-run.`
 
-I then used partial `--only` runs to revise the `scope-fits` check. One targeted run on issue-15, issue-19, and issue-20 scored 2/3. After another revision, issue-19 alone scored 1/1. My next full saved run scored 16/20, which showed the check was still inconsistent across the full set.
+`agreement: 17/20 scored items  (bar: 18/20: below the bar)`
 
-I revised `scope-fits` again and re-ran issue-01, issue-04, issue-15, issue-19, and issue-20, scoring 5/5. My final complete run scored 20/20 and passed every category.
+`agreement: 2/3 scored items`
+
+`agreement: 1/1 scored items`
+
+`agreement: 16/20 scored items  (bar: 18/20: below the bar)`
+
+`agreement: 5/5 scored items`
+
+`agreement: 20/20 scored items  (bar: 18/20: PASS)`
+
+The first run failed because my Claude Code OAuth session had expired. After authenticating again, I used the disagreement results to revise `scope-fits`, used targeted `--only` runs to test the changes cheaply, and then confirmed the final rubric with a complete 20-issue run.
 
 **Issue analysis**
 
@@ -99,13 +110,15 @@ This is also the basis for the claim comment you write in Unit 2.
 [Answer all three:
 
 1. The issue's fit to your interests and to the time available.
+
    Ans: Issue #72 fits my interests because it is related to backend development and security, especially how password verification should fail safely instead of raising an exception. It also fits the time available because the issue is small, points to the relevant implementation and test files, and is estimated at 1–2 hours.
 
-2. What the verdict identified correctly, and what you weighed that the rubric could
+3. What the verdict identified correctly, and what you weighed that the rubric could
    not.
    Ans: My rubric correctly identified that the repository is active, the issue is unclaimed, the scope is bounded, and the repository does not prohibit AI-assisted contributions. Outside of the rubric, I also considered whether the issue matched the kind of work I actually want to do. I preferred #72 because it involves Python, backend logic, testing, and security behavior, which are areas I am comfortable with and interested in.
 
-3. The anticipated difficulty in claiming it.]
+4. The anticipated difficulty in claiming it.]
+
    Ans: I expect claiming the issue to be straightforward because it is still open and currently has no assignee. The Path Review house rules also say that classmates' claim activity does not block the issue, so I do not expect the claiming step in Unit 2 to be difficult.
 
 ---
