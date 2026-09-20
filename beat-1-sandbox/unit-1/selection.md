@@ -51,7 +51,7 @@ https://github.com/codepath/pathreview-ai301-fa26-s3/issues/72
   ],
   "verdict": "accept"
 }
-``````
+```
 
 ---
 
