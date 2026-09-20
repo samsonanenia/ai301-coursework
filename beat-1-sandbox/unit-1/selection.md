@@ -80,6 +80,8 @@ The first run failed because my Claude Code OAuth session had expired. After aut
 
 **Issue analysis**
 
+`issue-19  accept  reject  NO  failed: scope-fits`
+
 I analyzed `issue-19`. In an earlier run, my rubric rejected it while the gold label was `accept`. The rejection came from my `scope-fits` check because I interpreted the issue's multiple possible causes and implementation suggestions as evidence that the task was too broad.
 
 After reviewing the issue more carefully, I realized that all of those possible causes were still aimed at one concrete outcome: fixing the UI freeze when selecting large subgraphs. I updated the check so it counts requested outcomes rather than the number of suspected causes, implementation steps, or files involved. With the final version of the rubric, `issue-19` was accepted, matching the gold label.
