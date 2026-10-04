@@ -1,0 +1,17 @@
+# Rubric: is this plan ready to post and build from?
+
+## Checks
+
+| Check | Evidence | Pass condition | Weight |
+|---|---|---|---|
+| diagnosis-grounded | The candidate plan's diagnosis or stated cause read against the issue context and the reproduced behavior in the repro-evidence block. | Pass when the diagnosis explains the behavior actually demonstrated by the reproduction and does not contradict, ignore, or go materially beyond that evidence. A hypothesis may pass only when it is identified as uncertain rather than presented as proven fact. | required |
+| cause-target-aligned | The plan's proposed change read against its diagnosis, the reproduced trigger, and the location where the evidence shows the failure occurs. | Pass when the proposed change addresses the demonstrated cause or failure boundary rather than only hiding the visible symptom. The change must not depend on an unsupported root-cause assumption. | required |
+| scope-bounded | The plan's in-scope and out-of-scope statements, named files or areas, and proposed change read against the issue request. | Pass when the work is one bounded change sufficient to address the reproduced issue, with unrelated cleanup, rewrites, dependency changes, or speculative improvements excluded. The named scope must be consistent with the issue and reproduction. | required |
+| executable-approach | The plan's files or areas to touch, implementation approach, and order of work. | Pass when another contributor could begin implementing the change from the plan without having to invent the target file, relevant code area, intended behavior, or essential implementation step. The plan does not need line-by-line code, but it must say concretely what will change and where. | required |
+| test-plan-proves-fix | The plan's test plan read against the original repro steps, observed failure, expected behavior, and any existing regression test. | Pass when the proposed verification would fail or expose the original behavior before the fix and would show the intended behavior after the fix. It must name an observable result rather than only saying to run tests or confirm the fix, and it must include relevant regression coverage. | required |
+| uncertainty-honest | The plan's risks, unknowns, assumptions, and any claims about code behavior read against the evidence available in the package. | Pass when material uncertainty is stated as uncertainty and known limitations or risks that could affect the implementation are not presented as settled facts. A plan with no meaningful unknowns may still pass when the evidence actually resolves them. | required |
+| thread-and-repo-conventions | The candidate plan comment read against the issue thread highlights, repo-facts block, contribution instructions, templates, and any AI-use or communication requirements. | Pass when the comment is the contributor's own plan, responds to relevant thread or maintainer signals, follows applicable repository conventions, and includes any required disclosure. Another student's plan does not block it under Path Review house rules, but copying or saying "same approach as above" does not pass. | required |
+
+## Verdict rule
+
+Accept only when every required check passes. Any failed or unclear required check makes the verdict reject. `unclear` counts as fail because a plan is not ready to build from when evidence needed for a required decision is missing. Preferred checks, if any are added later, never change the verdict.
