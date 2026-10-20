@@ -55,10 +55,10 @@ happened; these entries are the toolkit's own timeline.
 All four entries are graded. Keep every heading below, and fill each
 one in the week it belongs to.
 
-**Unit 5: [one line on the tool work]**
 
-[2-4 sentences: what you built (the scout, your strategy), what broke
-or fell short, what changed because of it.]
+**Unit 5: Built and tested an API-focused GitHub issue scout**
+
+I upgraded my Unit 1 issue-selection skill into `issue-scout`, adding Python and TypeScript search queries, ranking filters, and automated issue grading. My first scan accepted all five candidates, revealing that the rubric may overvalue recent activity in new or single-maintainer repositories. When I graded three issues from the CodePath Issue Selection site, the scout accepted two and rejected one because an existing pull request was already addressing it. I refined my search strategy to focus on API-related work and documented the scout's limitations, including outdated code references, for future improvements.
 
 **Unit 6: [one line on the tool work]**
 
