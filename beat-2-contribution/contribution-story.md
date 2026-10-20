@@ -56,9 +56,9 @@ All four entries are graded. Keep every heading below, and fill each
 one in the week it belongs to.
 
 
-**Unit 5: Built and tested an API-focused GitHub issue scout**
+**Unit 5: Built and evaluated an automated GitHub issue scout**
 
-I upgraded my Unit 1 issue-selection skill into `issue-scout`, adding Python and TypeScript search queries, ranking filters, and automated issue grading. My first scan accepted all five candidates, revealing that the rubric may overvalue recent activity in new or single-maintainer repositories. When I graded three issues from the CodePath Issue Selection site, the scout accepted two and rejected one because an existing pull request was already addressing it. I refined my search strategy to focus on API-related work and documented the scout's limitations, including outdated code references, for future improvements.
+I upgraded my Unit 1 issue-selection skill into `issue-scout`, adding Python and TypeScript API-focused searches, ranking filters, and automated grading using my rubric. My first scan evaluated five issues and accepted all five, revealing that recent repository activity alone may not prove long-term maintainer reliability. I then graded three issues from the CodePath Issue Selection site; the scout accepted two and rejected one because another contributor already had an open pull request. I documented the scout's limitations, including outdated code references in an accepted issue, and kept my rubric unchanged until I have stronger evidence that a check needs revision.
 
 **Unit 6: [one line on the tool work]**
 
