@@ -61,11 +61,9 @@ one in the week it belongs to.
 
 I upgraded my Unit 1 issue-selection skill into `issue-scout`, adding Python and TypeScript API-focused searches, ranking filters, and automated grading using my rubric. My first scan evaluated five issues and accepted all five, revealing that recent repository activity alone may not prove long-term maintainer reliability. I then graded three issues from the CodePath Issue Selection site; the scout accepted two and rejected one because another contributor already had an open pull request. I documented the scout's limitations, including outdated code references in an accepted issue, and kept my rubric unchanged until I have stronger evidence that a check needs revision.
 
-**Unit 6: [one line on the tool work]**
+**Unit 6: Built a Voice Guard and created local repository memory for NomNom**
 
-[2-4 sentences: the voice-guard, the repo-memory file. What broke or
-fell short, and what changed because of it. "Nothing broke" counts when
-it is true - say how you know.]
+I installed a shared voice guide and a Voice Guard hook to check public GitHub communication before posting. I verified that the hook could block an unsupported GitHub comment command, then used `repro-check` to evaluate my claim for NomNom issue #220. I also created a `CLAUDE.local.md` memory file in my local NomNom clone, documented the nomination-email subsystem, and excluded the file from Git commits. My first memory draft contained outdated development commands, so I corrected them after a focused Claude Code investigation; reproducing the issue and receiving CodePath's contribution-policy guidance are still pending.
 
 **Unit 7: [one line on the tool work]**
 
