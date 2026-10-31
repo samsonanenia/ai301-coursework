@@ -1,4 +1,10 @@
-# Contribution: [Issue Title]
+# Contribution: Add time zone to timestamps in generated emails?
+
+**Contribution Number:** [1]
+**Student:** Samson Anenia
+**GitHub Username:** samsonanenia
+**Issue:** https://github.com/WorldconVotingSystems/nomnom/issues/220
+**Pull Request:** [Pending]
 
 Path: `beat-2-contribution/contribution-story.md`
 
@@ -7,12 +13,7 @@ the repository is not read. **Keep every section header below under its exact na
 format criteria grade exactly that. Your course repo link is the whole submission: no tool
 files and no evidence uploads are part of Assignment 5.
 
-**Contribution Number:** [1]
-**Student:** [Student name]
-**GitHub Username:** [your GitHub username, exactly as it appears on your profile - no @, no
-profile URL. Your comments upstream are identified by this name.]
-**Issue:** [GitHub issue link]
-**Pull Request:** [GitHub PR link, once opened]
+
 
 One repository, built across units 5 to 8, telling the whole story of your real
 contribution. Fill it as you work, not at the end — the sections below ask for evidence that
@@ -80,24 +81,20 @@ drafted, what you did with the draft.]
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs in your own words: how you searched, what your scan
-surfaced, what your scout's verdict said, why this issue fits your
-profile, and what you hope to learn. If your scout's verdict on it
-was reject and you chose it anyway, say so here and say why; choosing
-against your own tool silently is what loses points. Close with an
-honest read of the tool itself: where the scout fell short on a real
-wild search and what you changed or would change, or what convinced
-you it held up. **Record the link to your claim comment in this section too.**
-Not claimed yet? Write `claim pending` and today's date where the link goes,
-and add the link the moment your claim lands.]
+I found this issue through the CodePath AI301 Issue Selection site while looking for an open-source project that matched my experience with Python, backend development, APIs, and debugging. I selected three possible issues and evaluated them using the `issue-scout` tool I built in Unit 5.
+
+After updating my rubric in Unit 6, the scout accepted NomNom issue #220 with **moderate difficulty**. The issue involves making timestamps in generated nomination emails clearer by displaying the correct time zone. I chose it because it is a focused problem that I can investigate, reproduce, and test. I also want to improve my understanding of Django applications, date and time handling, and contributing to a real open-source project.
+
+The scout helped me avoid Red-DiscordBot issue #4200 because another contributor already had an open pull request addressing it. During Unit 6, I updated my rubric from `scope-fits` to `scope-feasible` following CodePath's guidance for evaluating real-world issues. I also added difficulty classifications so the scout could distinguish straightforward, moderate, and ambitious work without automatically rejecting issues with open design questions. One limitation was that the scout could not fully establish NomNom's contribution policies, so I contacted CodePath support about the missing `CONTRIBUTING.md`.
+
+**Claim comment:** https://github.com/WorldconVotingSystems/nomnom/issues/220#issuecomment-6537759787
 
 **Toolkit**
 
-- Tool: issue-scout (your scout: your search strategy, your rubric),
-  and how you used it
-- What it produced: [the scan and its verdict on this issue, described]
-- Difficulties: [where it fell short, or "none met" if none did]
-- What changed: [what you patched or would update, or "nothing"]
+- **Tool:** issue-scout, using my custom search strategy and updated grading rubric.
+- **What it produced:** A passing verdict and moderate difficulty assessment for NomNom #220, along with evidence about repository activity, issue scope, and claim status.
+- **Difficulties:** The original scope check was designed for more clearly defined classroom issues. The selected repository also lacked a CONTRIBUTING.md file.
+- **What changed:** I replaced the scope check with `scope-feasible`, introduced difficulty notes, and contacted CodePath support about the missing contribution guidelines.
 
 ---
 
